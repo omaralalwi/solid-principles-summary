@@ -224,4 +224,4 @@ The SOLID principles provide a framework for creating software that is modular, 
 
 ## Helpful Links
 
-- [Clean Code Summary ](https://github.com/omaralalwi/clean-code-summary)
+- [Clean Code Summary](https://github.com/omaralalwi/clean-code-summary)
