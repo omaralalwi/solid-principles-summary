@@ -221,3 +221,7 @@ The SOLID principles provide a framework for creating software that is modular, 
 
 - [SOLID Principles - Wikipedia](https://en.wikipedia.org/wiki/SOLID)
 - [Clean Code by Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+
+## Helpful Links
+
+- [Clean Code Summary ](https://github.com/omaralalwi/clean-code-summary)
