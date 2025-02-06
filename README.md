@@ -30,7 +30,6 @@ The Single Responsibility Principle states that every class or module in a progr
 Consider a `User` class that handles user data and also manages user notifications. To adhere to SRP, you should separate these responsibilities into different classes, such as `User` and `NotificationService`.
 
 ```php
-<?php
 class User {
     private $name;
     private $email;
@@ -68,7 +67,6 @@ The Open-Closed Principle suggests that you should design your modules, classes,
 Suppose you have a `Shape` class with a `draw` method. To add a new shape without modifying the existing code, you can create a new class that implements the `Shape` interface.
 
 ```php
-<?php
 interface Shape {
     public function draw();
 }
@@ -103,7 +101,6 @@ The Liskov Substitution Principle states that objects of a superclass should be 
 If you have a `Bird` class with a `fly` method, a `Penguin` subclass should not inherit from `Bird` because penguins cannot fly. Instead, you might have a `FlyingBird` class and a `Bird` class without the `fly` method.
 
 ```php
-<?php
 class Bird {
     public function speak() {
         // Speak logic
@@ -140,7 +137,6 @@ The Interface Segregation Principle suggests that you should create specific int
 Instead of having a single `Worker` interface with `work` and `eat` methods, you can split it into `Workable` and `Eatable` interfaces.
 
 ```php
-<?php
 interface Workable {
     public function work();
 }
@@ -183,7 +179,6 @@ The Dependency Inversion Principle states that high-level modules should not dep
 Instead of having a `Car` class depend directly on a `Engine` class, you can have the `Car` class depend on an `Engine` interface.
 
 ```php
-<?php
 interface Engine {
     public function start();
 }
