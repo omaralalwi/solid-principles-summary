@@ -48,7 +48,7 @@ class NotificationService {
         // Send notification logic
     }
 }
-?>
+
 ```
 
 ---
@@ -84,7 +84,6 @@ class Square implements Shape {
         // Draw square logic
     }
 }
-?>
 ```
 
 ---
@@ -122,7 +121,6 @@ class Penguin extends Bird {
         // Swim logic
     }
 }
-?>
 ```
 
 ---
@@ -166,7 +164,6 @@ class Robot implements Workable {
         // Work logic
     }
 }
-?>
 ```
 
 ---
@@ -208,7 +205,6 @@ class Car {
         $this->engine->start();
     }
 }
-?>
 ```
 
 ---
